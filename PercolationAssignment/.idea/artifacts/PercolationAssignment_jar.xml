@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/PercolationAssignment_jar</output-path>
     <root id="archive" name="PercolationAssignment.jar">
       <element id="module-output" name="PercolationAssignment" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../PrincetonAlgorithmsCourse/Percolation/algs4.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

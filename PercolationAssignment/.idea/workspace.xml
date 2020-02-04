@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="872d83a6-acf0-4f24-8a01-1cebef036533" name="Default Changelist" comment="" />
+    <list default="true" id="872d83a6-acf0-4f24-8a01-1cebef036533" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/PercolationAssignment_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/PercolationAssignment_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PercolationAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PercolationAssignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PercolationAssignment/Percolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PercolationAssignment/Percolation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PercolationAssignment/percolation.zip" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PercolationAssignment/percolation.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/percolation.zip" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +25,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XHRiWEjQ4GsIO3GynnPR5pn7Yw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -39,7 +55,7 @@
     <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PercolationStats" />
       <module name="PercolationAssignment" />
-      <option name="PROGRAM_PARAMETERS" value="2 100000" />
+      <option name="PROGRAM_PARAMETERS" value="200 100" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,10 +77,25 @@
       <option name="presentableId" value="Default" />
       <updated>1580701160212</updated>
       <workItem from="1580701163551" duration="2087000" />
+      <workItem from="1580703846604" duration="932000" />
+      <workItem from="1580767090571" duration="2984000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

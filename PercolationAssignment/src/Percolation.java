@@ -12,10 +12,6 @@ public class Percolation {
         this.n = n;
         uf = new WeightedQuickUnionUF(n*n + 2);
         opened = new boolean[n * n + 2];
-        for (int i = 1; i <= n; i++)
-            uf.union(0, i);
-        for (int i = (n*n-n) + 1; i <= n*n; i++)
-            uf.union(n*n+1, i);
     }
 
     // opens the site (row, col) if it is not open already
@@ -24,8 +20,14 @@ public class Percolation {
             throw new IllegalArgumentException("Invalid Range: " + row + ", " + col);
         if (isOpen(row, col)) return;
         int spot = (row - 1) * n + col;
-        opened[spot] = true;
+        opened[spot+1] = true;
         opens++;
+        if (row == 1) {
+            uf.union(spot, 0);
+        }
+        if (row == n) {
+            uf.union(spot, n*n+1);
+        }
         if (col < n && isOpen(row, col+1))
             uf.union(spot, spot+1);
         if (col > 1 && isOpen(row, col-1))
@@ -41,13 +43,15 @@ public class Percolation {
     public boolean isOpen(int row, int col) {
         if (row <= 0 || row > n || col <= 0 || col > n) throw new IllegalArgumentException("Invalid Range: " + row + ", " + col);
         int spot = (row - 1) * n + col;
-        return opened[spot];
+        return opened[spot+1];
 
     }
 
     // is the site (row, col) full?
     public boolean isFull(int row, int col) {
-        return !isOpen(row, col);
+        if (row <= 0 || row > n || col <= 0 || col > n) throw new IllegalArgumentException("Invalid Range: " + row + ", " + col);
+        int spot = (row - 1) * n + col;
+        return uf.find(0) == uf.find( spot);
     }
 
     // returns the number of open sites
